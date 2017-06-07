@@ -1,6 +1,7 @@
 # ESBackUp
 This script is used for backup elasticsearch data.Please following below steps in order to get the correct results
-1, create a share folder /share-test/es on the destation server site
+
+1, create a share folder **/share-test/es** on the destination server site
 then run es_prepare script **on each server** machines as below
 ```shell
  sed -i 's/\r$//' es_prepare.sh
@@ -23,7 +24,7 @@ For example:
 
 ```
 
-2, Run restore on **elasticsearch master node**
+3, Run restore on **elasticsearch master node**
 
 ```shell
  sed -i 's/\r$//' es_restore.sh
