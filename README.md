@@ -1,7 +1,7 @@
 # ESBackUp
 This script is used for backup elasticsearch data.Please following below steps in order to get the correct results
 
->1, create a share folder **_/share-test/es_** on the destination server site
+>1, create a share folder `**_/share-test/es_**` on the destination server site
 then run es_prepare script **on each server** machines as below
 ```shell
  sed -i 's/\r$//' es_prepare.sh
