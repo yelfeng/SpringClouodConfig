@@ -5,7 +5,12 @@ then run es_prepare script **on each server** machines as below
 ```shell
  sed -i 's/\r$//' es_prepare.sh
  chmod 777 es_prepare.sh
- sh es_preare.sh YOUR-SERVER-IP YOUR-SERVER-USERNAME YOUR-SERVER-PASSWORD
+ sh es_preare.sh YOUR-SHARE-SERVER-IP-ADDRESS YOUR-SHARE-SERVER-USERNAME YOUR-SHARE-SERVER-PASSWORD
+
+```
+For example:
+```bash
+ sh es_preare.sh 192.168.1.200 admin admin
 
 ```
 
